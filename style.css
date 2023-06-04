@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #F6F6F6;
+    color: #F7A792; 
+}
+
+.curso-destaque {
+    color: #F07C77;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
