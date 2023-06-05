@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-primaria: #F6F6F6;
+    --cor-secundaria: #F7A792;
+    --cor-terciaria: #F07C77;
+    --cor-rodape: #f2e5dd;
+    --cor-botao: #f3ede9;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,13 +16,13 @@
 body{
     box-sizing: border-box;
     /* height: 100vh; */
-    background-color: #F6F6F6;
-    color: #F7A792; 
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria); 
 }
 
 .cabecalho{
     padding: 2% 0 1% 15%;
-    background-color: #F7A792;
+    background-color: var(--cor-secundaria);
 }
 
 .cabecalho__menu{
@@ -25,16 +34,16 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #f2e5dd;
+    color: var(--cor-rodape);
     text-decoration: none;
 }
 
 .cabecalho__menu__link:hover{
-    color: #F07C77;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao{
-    padding: 4% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,7 +62,7 @@ body{
 }
 
 .nome-destaque {
-    color: #F07C77;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto{
@@ -81,8 +90,8 @@ body{
     justify-content: center;
     gap: 16px;
 
-    background-color: #f3ede9;
-    border: 2px dotted #F07C77;
+    background-color: var(--cor-botao);
+    border: 2px dotted var(--cor-terciaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -91,18 +100,18 @@ body{
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color:#F07C77;
+    color:var(--cor-terciaria);
     font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao__links__links:hover{
-    background-color: #f2e5dd;
-    border: 2px solid #F07C77;
+    background-color: var(--cor-rodape);
+    border: 2px solid var(--cor-terciaria);
 }
 
 .rodape{
-    color: #f2e5dd;
-    background-color: #F7A792;
+    color: var(--cor-rodape);
+    background-color: var(--cor-secundaria);
     padding: 24px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -111,5 +120,5 @@ body{
 }
 
 .rodape:hover{
-    color: #F07C77;
+    color: var(--cor-terciaria);
 }
