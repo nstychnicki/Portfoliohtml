@@ -20,11 +20,17 @@ body{
     display: flex;
     gap: 80px;
 }
+
 .cabecalho__menu__link{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: #f2e5dd;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover{
+    color: #F07C77;
 }
 
 .apresentacao{
@@ -101,5 +107,9 @@ body{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+.rodape:hover{
+    color: #F07C77;
 }
