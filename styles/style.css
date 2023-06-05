@@ -50,6 +50,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
@@ -107,7 +108,7 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links__links:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-rodape);
     border: 2px solid var(--cor-terciaria);
 }
@@ -128,4 +129,19 @@ body{
 
 .rodape:hover{
     color: var(--cor-terciaria);
+}
+
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 8% 0 3% 0;
+    }
+    
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;  
+    }
+
 }
